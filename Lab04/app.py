@@ -8,10 +8,9 @@ from selenium.webdriver.common.keys import Keys
 
 options = Options()
 options.add_argument('--headless')
-options.add_argument('--window-size=1920,1080')
+options.add_argument('--window-size=1920,1080')  # maximize the window
 options.add_argument('--disable-gpu')
 
-# driver = webdriver.Safari()
 
 driver = webdriver.Chrome(ChromeDriverManager().install(), options=options)
 
@@ -51,9 +50,12 @@ element_input_id = WebDriverWait(driver, 10).until(
 element_input_id.send_keys("311554057")
 element_input_id.send_keys(Keys.RETURN)
 
+
 # print second title
 element_second_title = driver.find_element(
     By.XPATH, '//*[@id="rso"]/div[3]/div/div/div[1]/div/a/h3').text
 print(element_second_title)
 
+
+# close the browser
 driver.quit()
