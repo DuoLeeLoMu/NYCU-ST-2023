@@ -4,3 +4,4 @@
 ![example workflow](https://github.com/DuoLeeLoMu/311554057-ST-2023/actions/workflows/Lab01-CI.yml/badge.svg)  
 ![example workflow](https://github.com/DuoLeeLoMu/311554057-ST-2023/actions/workflows/Lab02-CI.yml/badge.svg)  
 ![example workflow](https://github.com/DuoLeeLoMu/311554057-ST-2023/actions/workflows/Lab03-CI.yml/badge.svg)  
+![example workflow](https://github.com/DuoLeeLoMu/311554057-ST-2023/actions/workflows/Lab04-CI.yml/badge.svg)  
