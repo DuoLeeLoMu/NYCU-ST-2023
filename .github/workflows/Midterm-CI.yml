@@ -30,3 +30,12 @@ jobs:
         cd Midterm
         coverage run -m unittest course_scheduling_system_test.py
         coverage report
+    - name: Install dependencies
+      run: |
+        cd Midterm
+        python -m pip install --upgrade pip
+        if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+    - name: Run selenium code
+      run: |
+        cd Midterm
+        python3 app.py
